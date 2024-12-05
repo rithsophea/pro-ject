@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 150vh;
+  background-color: #4d4d4d;
+  margin: auto;
+}
+.header {
+  top: 0;
+  left: 0;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background-color: #393636;
+}
+
+.logo {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ff00a2;
+  font-weight: bold;
+}
+.nav-bar ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 17px 27px;
+}
+.nav-bar ul li a {
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-bar ul li a:hover {
+  color: #ff00a2;
+  text-shadow: 0 0 25px #ff00a2;
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+.title h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  margin-left: 40%;
+  text-shadow: 0 0 25px #ff00a2;
+  margin-top: 2.5rem;
+  text-decoration: underline;
+}
+.icon {
+  width: 40%;
+  height: 83%;
+  float: left;
+}
+.text {
+  width: 60%;
+  height: 83%;
+  float: left;
+}
+.co {
+  width: 550px;
+  height: 500px;
+  margin-top: 30px;
+  margin-left: 200%;
+  margin-bottom: 300%;
+}
+.co form input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  border: none;
+  border: #ff00a2 solid 3px;
+}
+.co form textarea {
+  width: 100%;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  border: #ff00a2 solid 3px;
+}
+.co1 {
+  width: 100%;
+  height: 60px;
+}
+.co1 form input {
+  width: 170px;
+  height: 50px;
+  background-color: #ff00a2;
+  border: black solid 3px;
+}
+.box1 {
+  width: 400px;
+  height: 60px;
+  margin-left: 5%;
+  margin-top: 30px;
+  float: left;
+}
+
+.box2 {
+  width: 400px;
+  height: 60px;
+  margin-left: 0.2%;
+  margin-top: 30px;
+  float: left;
+}
+.box3 {
+  width: 400px;
+  height: 60px;
+  margin-left: 0.2%;
+  margin-top: 31px;
+  float: left;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  background-color: #ff00a2;
+  float: left;
+  border-radius: 100%;
+}
+.text p {
+  color: white;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.input {
+  width: 50%;
+  height: 100%;
+  background-color: #ff00a2;
+}
